@@ -1,0 +1,18 @@
+# Visual Studio files
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.db
+*.vsidx
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.out
