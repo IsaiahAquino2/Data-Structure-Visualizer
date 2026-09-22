@@ -59,14 +59,14 @@ char mainMenuOption()
 
       // Display the menu
       cout << "\n\tCMPR121 Exam3: STL (Standard Template Library) Containers & Container Adaptors by Isaiah, Isaac, Mario";
-      cout << "\n\t" << string(102, "=");
+      cout << "\n\t" << string(102, '=');
       cout << "\n\t\033[31mV. Vector Container ";
       cout << "\n\t\033[93mL. List Container";
       cout << "\n\t\033[94mS. Stack (LIFO) Container Adaptor";
       cout << "\n\t\033[32mQ. Queue (FIFO) Container Adaptor";
-      cout << "\n\t\033[0m" << string(102, "-");
+      cout << "\n\t\033[0m" << string(102, '-');
       cout << "\n\t\033[0mX. Exit";
-      cout << "\n\t" << string(102, "=") << "\n";
+      cout << "\n\t" << string(102, '=') << "\n";
 
       // Prompt the user to enter an option
       char option = inputChar("\tOption: ", static_cast<string> ("VLSQX"));
@@ -117,16 +117,16 @@ int vectorMenuOption()
 {
     // Print the menu
     cout << "\n\n\t\tVector (list array) Menu Option";
-    cout << "\n\t" << string(102, "=");
+    cout << "\n\t" << string(102, '=');
     cout << "\n\t\t1. Add An Element";
     cout << "\n\t\t2. Insert An Element At Index";
     cout << "\n\t\t3. Retrieve An Element From Index";
     cout << "\n\t\t4. Erase Element(s)";
     cout << "\n\t\t5. Sort the vector elements in ascending order";
     cout << "\n\t\t6. Clear all elements";
-    cout << "\n\t" << string(102, "-");
+    cout << "\n\t" << string(102, '-');
     cout << "\n\t\t0. Return";
-    cout << "\n\t" << string(102, "=") << "\n";
+    cout << "\n\t" << string(102, '=') << "\n";
     // Prompt the user to enter an option
     int option = inputInteger("\t\tOption: ", 0, 6);
     return option; 
@@ -412,16 +412,16 @@ int listMenuOption()
 {
     cout << "\n\n";
     cout << "\n\t\tLinked List Menu Options";
-    cout << "\n\t" << string(102, "=");
+    cout << "\n\t" << string(102, '=');
     cout << "\n\t\t1. Add (Push) An Element ";
     cout << "\n\t\t2. Insert An Element After ";
     cout << "\n\t\t3. Find An Element ";
     cout << "\n\t\t4. Remove Element(s) ";
     cout << "\n\t\t5. Sort The Elements In Ascending Order ";
     cout << "\n\t\t6. Clear all elements";
-    cout << "\n\t" << string(102, "-");
+    cout << "\n\t" << string(102, '-');
     cout << "\n\t\t0. Return";
-    cout << "\n\t" << string(102, "=") << "\n";
+    cout << "\n\t" << string(102, '=') << "\n";
     int option = inputInteger("\t\tOption: ", 0, 6);
     return option; 
 }
@@ -764,13 +764,13 @@ int stackMenuOption()
 {
     cout << "\n\n";
     cout << "\n\t\tStack Menu Options";
-    cout << "\n\t" << string(102, "=");
+    cout << "\n\t" << string(102, '=');
     cout << "\n\t\t1. Push";
     cout << "\n\t\t2. Top";
     cout << "\n\t\t3. Pop";
-    cout << "\n\t" << string(102, "-");
+    cout << "\n\t" << string(102, '-');
     cout << "\n\t\t0. Return";
-    cout << "\n\t" << string(102, "=") << "\n";
+    cout << "\n\t" << string(102, '=') << "\n";
     int option = inputInteger("\t\tOption: ", 0, 3);
     return option; 
 }
@@ -893,14 +893,14 @@ int queueMenuOption()
     // Display queue menu
     cout << "\n\n";
     cout << "\n\t\tQueue Menu Option";
-    cout << "\n\t" << string(102, "=");
+    cout << "\n\t" << string(102, '=');
     cout << "\n\t\t1. Enqueue (Push Into The Rear)";
     cout << "\n\t\t2. Rear (Back)";
     cout << "\n\t\t3. Front";
     cout << "\n\t\t4. Dequeue (pop from the front)";
-    cout << "\n\t" << string(102, "-");
+    cout << "\n\t" << string(102, '-');
     cout << "\n\t\t0. Return";
-    cout << "\n\t" << string(102, "=") << "\n";
+    cout << "\n\t" << string(102, '=') << "\n";
     // Prompt the user to enter an option
     int option = inputInteger("\t\tOption: ", 0, 4);
     return option; 

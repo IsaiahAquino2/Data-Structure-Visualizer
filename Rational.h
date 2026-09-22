@@ -45,8 +45,8 @@ public:
 	Rational() : numerator(0), denominator(1) // Default constructor
 	{}
 
-	class DivideByZero {};		//Exception Class thrown when divide by 0
-	class InvalidSubscript {};	//Excpetion Class thrown when accessing invalid index
+	class DivideByZero {};		// Exception Class thrown when divide by 0
+	class InvalidSubscript {};	// Exception Class thrown when accessing invalid index
 
 	// Constructor with arguments
 	Rational(int n, int d)
