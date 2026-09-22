@@ -3,7 +3,7 @@
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CMake](https://img.shields.io/badge/Build-CMake-orange.svg)](https://cmake.org/)
 
-A high-performance C++ mathematical and data-structure application implementing an exact-precision rational arithmetic class, custom memory-managed container structures (dynamic vectors, stacks, and queues), and a robust terminal interface.
+A cross-platform C++ application featuring an exact-precision rational arithmetic class, container data structures (vectors, stacks, and queues), and a robust, fail-safe terminal interface.
 
 ---
 
